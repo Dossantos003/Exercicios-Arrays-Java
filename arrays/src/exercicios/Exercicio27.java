@@ -15,7 +15,7 @@ public class Exercicio27 {
         }
 
         for (int i = 0; i < 6; i++) {
-            // Verifica se o nome não está vazio e se começa com 'A' ou 'a'
+           
             if (!nomes.isEmpty() && (nomes[i].charAt(0) == 'A' || nomes[i].charAt(0) == 'a')) {
                 contador++;
             }
